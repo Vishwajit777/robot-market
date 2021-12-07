@@ -112,7 +112,7 @@ const Cart = () => {
                     <div>
                       <img className="border" src={item.image} alt="cart" />
                       <h5>{item.name}</h5>
-                      <p>Price ฿{item.price}</p>
+                      <p>Price ฿{(item.price/2.23).toFixed(2)}</p>
                       <p>Material - {item.material}</p>
                       <p>Stock - {item.stock}</p>
                     </div>

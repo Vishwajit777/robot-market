@@ -9,8 +9,6 @@ const Reducer = (cart = [], action) => {
  }
  
   if (action.type === "CHANGE-COUNT") {
-    let existingItemIndex = (cart, action.payload);
-    cart[existingItemIndex] += action.payload;
     return {...cart,};
   }
 

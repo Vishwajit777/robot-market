@@ -36,6 +36,7 @@ const Products = () => {
     if (item.material === filterValue) {
       filteredRobot.push(item)
     }
+    return 0
   })
 
   //return robots for perticular name
